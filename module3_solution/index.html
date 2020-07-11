@@ -1,181 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Food,LLC </title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
-  <title>Module 3 Solution</title>
-</head>
-  
-<body data-gr-c-s-loaded="true">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Assignment</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <!-- Header goes here -->
   <header>
-		<nav class="navbar">
-			<div class="navbar-header">
-				<div class="company-name navbar-brand pull-left">
-					Food, LLC
-				</div>
+    <nav class="navbar navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">Food, LLC</a>
 
-				<button type="button" class="navbar-toggle collpased" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
+      <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-sm-none" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link text-center" href="#Chicken">Chicken</a><hr class="division">
+          <a class="nav-item nav-link text-center" href="#Beef">Beef</a><hr class="division">
+          <a class="nav-item nav-link text-center" href="#Sushi">Sushi</a>
+        </div>
+      </div>
 
-			<div id="collapsable-nav" class="collapse navbar-collapse">
-                           <ul id="nav-list" class="nav navbar-nav visible-xs navbar-right">
-                        	<li>
-                         		<a href="#chicken" class="text-center">
-                		     	<br class="hidden-xs">Chicken
-                	         	</a>
-                	        </li>
-                        
-                	        <li>
-                		        <a href="#beef" class="text-center">
-                			  <br class="hidden-xs">Beef
-                		        </a>
-                	        </li>
+    </nav> <!-- Header navbar -->
+  </header>
 
-                	        <li>
-                	        	<a href="#sushi" class="text-center">
-                			<br class="hidden-xs">Sushi
-                		        </a>
-                	        </li>
-                            </ul>				
-			</div>
-		</nav>
-	</header>
+  <h1 class="text-center" id="Home">Our Menu</h1>
 
-	<div class="main-content">
-		<h2 class="text-center title">Our Menu</h2>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col menu-tiles">
-					<div class="tile">
-					    <h3 class="text-center"><a name="chicken">Chicken</a></h3>
-					    <p>
-					    	Lorem Ipsum doesn’t exist because people think the content 
-						is meaningless window dressing, only there to be decorated
-						by designers who can’t be bothered to read. Lorem Ipsum exists 
-						because words are powerful. If you fill up your page with draft
-						copy about your client’s business, they will read it. They will comment
-						on it. They will be inexorably drawn to it. Presented the wrong
-						way, draft copy can send your design review off the rails. Sed 
-						ut perspiciatis, unde omnis iste natus error sit voluptatem 
-						accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
-						quae ab illo inventore veritatis et quasi architecto beatae vitae 
-						dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-						aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, 
-						qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui 
-						dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, 
-						sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore 
-						et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
-						quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi 
-						ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit,
-						qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum,
-						qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus 
-						et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum 
-						deleniti atque corrupti, quos dolores et quas molestias excepturi sint, 
-						obcaecati cupiditate non provident, similique sunt in culpa, qui officia 
-						deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
-						rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-						nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime 
-						placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
-						Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-						eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum 
-						rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-						consequatur aut perferendis doloribus asperiores repellat…
-					    	<a href="#"><br>(Back to top)</a>
-					    </p>	
-					</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12 subsection"> 
+          <h3 class="section-title text-center" id="Chicken">Chicken</h3>
+          <div class="section-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim elit sit amet rutrum tempor. Nullam dignissim hendrerit tempor. Proin felis orci, vehicula vitae nisi vel, dignissim iaculis massa. Mauris elementum, velit at luctus pulvinar, elit metus pretium turpis, et venenatis magna tortor a ex. Pellentesque scelerisque porttitor metus sit amet tincidunt. Morbi id tortor nisl. Quisque at semper orci. Donec egestas ex sed finibus mattis. Nulla facilisi. Donec posuere justo sem, sed condimentum lorem faucibus ac. Suspendisse orci libero, mollis sit amet ultrices eu, pulvinar quis sem.<br>
+          Vestibulum nulla felis, varius tincidunt elementum at, hendrerit vel lectus. Nunc pulvinar massa nec nulla rutrum iaculis. Sed mi magna, varius sed nisi et, congue bibendum ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam placerat tortor quis risus feugiat volutpat. Aliquam vehicula, risus molestie rhoncus sagittis, ipsum risus laoreet massa, vel egestas nibh eros sed nisi. Phasellus fringilla sed sem ut pellentesque.
+          </div>
+          <a href="#Home"><div class="text-right">Back to Top</div></a>   
+      </div> 
 
-					<div class="tile">
-					    <h3 class="text-center"><a name="beef">Beef</a></h3>
-					    <p>
-						Lorem Ipsum doesn’t exist because people think the content 
-						is meaningless window dressing, only there to be decorated
-						by designers who can’t be bothered to read. Lorem Ipsum exists 
-						because words are powerful. If you fill up your page with draft
-						copy about your client’s business, they will read it. They will comment
-						on it. They will be inexorably drawn to it. Presented the wrong
-						way, draft copy can send your design review off the rails. Sed 
-						ut perspiciatis, unde omnis iste natus error sit voluptatem 
-						accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
-						quae ab illo inventore veritatis et quasi architecto beatae vitae 
-						dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-						aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, 
-						qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui 
-						dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, 
-						sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore 
-						et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
-						quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi 
-						ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit,
-						qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum,
-						qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus 
-						et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum 
-						deleniti atque corrupti, quos dolores et quas molestias excepturi sint, 
-						obcaecati cupiditate non provident, similique sunt in culpa, qui officia 
-						deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
-						rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-						nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime 
-						placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
-						Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-						eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum 
-						rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-						consequatur aut perferendis doloribus asperiores repellat…
-					    	<a href="#"><br>(Back to top)</a>
-					    </p>	
-					</div>
+      <div class="col-md-4 col-sm-6 col-xs-12 subsection"> 
+          <h3 class="section-title text-center" id="Beef">Beef</h3>
+          <div class="section-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim elit sit amet rutrum tempor. Nullam dignissim hendrerit tempor. Proin felis orci, vehicula vitae nisi vel, dignissim iaculis massa. Mauris elementum, velit at luctus pulvinar, elit metus pretium turpis, et venenatis magna tortor a ex. Pellentesque scelerisque porttitor metus sit amet tincidunt. Morbi id tortor nisl. Quisque at semper orci. Donec egestas ex sed finibus mattis. Nulla facilisi. Donec posuere justo sem, sed condimentum lorem faucibus ac. Suspendisse orci libero, mollis sit amet ultrices eu, pulvinar quis sem.<br>
+          Vestibulum nulla felis, varius tincidunt elementum at, hendrerit vel lectus. Nunc pulvinar massa nec nulla rutrum iaculis. Sed mi magna, varius sed nisi et, congue bibendum ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam placerat tortor quis risus feugiat volutpat. Aliquam vehicula, risus molestie rhoncus sagittis, ipsum risus laoreet massa, vel egestas nibh eros sed nisi. Phasellus fringilla sed sem ut pellentesque.
+          </div> 
+          <a href="#Home"><div class="text-right">Back to Top</div></a> 
+      </div> 
 
-					<div class="tile">
-					    <h3 class="text-center"><a name="sushi">Sushi</a></h3>
-					    <p>
-						Lorem Ipsum doesn’t exist because people think the content 
-						is meaningless window dressing, only there to be decorated
-						by designers who can’t be bothered to read. Lorem Ipsum exists 
-						because words are powerful. If you fill up your page with draft
-						copy about your client’s business, they will read it. They will comment
-						on it. They will be inexorably drawn to it. Presented the wrong
-						way, draft copy can send your design review off the rails. Sed 
-						ut perspiciatis, unde omnis iste natus error sit voluptatem 
-						accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
-						quae ab illo inventore veritatis et quasi architecto beatae vitae 
-						dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-						aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, 
-						qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui 
-						dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, 
-						sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore 
-						et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
-						quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi 
-						ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit,
-						qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum,
-						qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus 
-						et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum 
-						deleniti atque corrupti, quos dolores et quas molestias excepturi sint, 
-						obcaecati cupiditate non provident, similique sunt in culpa, qui officia 
-						deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
-						rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-						nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime 
-						placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
-						Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
-						eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum 
-						rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-						consequatur aut perferendis doloribus asperiores repellat…
-					    	<a href="#"><br>(Back to top)</a>
-					    </p>	
-					</div>
+      <div class="col-md-4 col-sm-12 col-xs-12 subsection"> 
+          <h3 class="section-title text-center" id="Sushi">Sushi</h3>
+          <div class="section-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim elit sit amet rutrum tempor. Nullam dignissim hendrerit tempor. Proin felis orci, vehicula vitae nisi vel, dignissim iaculis massa. Mauris elementum, velit at luctus pulvinar, elit metus pretium turpis, et venenatis magna tortor a ex. Pellentesque scelerisque porttitor metus sit amet tincidunt. Morbi id tortor nisl. Quisque at semper orci. Donec egestas ex sed finibus mattis. Nulla facilisi. Donec posuere justo sem, sed condimentum lorem faucibus ac. Suspendisse orci libero, mollis sit amet ultrices eu, pulvinar quis sem.<br>
+          Vestibulum nulla felis, varius tincidunt elementum at, hendrerit vel lectus. Nunc pulvinar massa nec nulla rutrum iaculis. Sed mi magna, varius sed nisi et, congue bibendum ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam placerat tortor quis risus feugiat volutpat. Aliquam vehicula, risus molestie rhoncus sagittis, ipsum risus laoreet massa, vel egestas nibh eros sed nisi. Phasellus fringilla sed sem ut pellentesque.
+          </div>
+          <a href="#Home"><div class="text-right">Back to Top</div></a> 
+      </div> 
 
-				</div>
-			</div>
-		</div>
-	</div>
+    </div> <!--  grid ends here -->
+  </div> <!-- container ends here -->
 
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="bootstrap.js"></script>
+    
 </body>
 </html>
