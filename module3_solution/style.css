@@ -2,78 +2,76 @@ body{
 	font-family: 'Sriracha', cursive;
 	font-size: 15px;
 }
-
 .navbar{
-	background-color: #888888;
+	background-color: #666666;
 	border-radius: 1px;
 	border-bottom: 2px solid black;
 }
 
-.icon-bar{
-	background-color: black;
+.navbar-brand{
+	padding:10px;
+	font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
 }
 
-.navbar-toggle{
+.navbar-toggler{
 	background-color: grey;
 	border: 1px solid black;
+	margin: 10px;
 }
 
-.navbar-toggle:hover{
+.navbar-toggler:hover{
 	border: 1px solid grey;
 	background-color: white;
 }
 
-@media (max-width: 780px){
-	#collapsable-nav{
-		background-color: white;
-		border-top: 2px solid black;
-	}
+.navbar-nav:hover, .navbar-nav:focus{
+     background: crimson;
 }
 
-ul #nav-list li a{
-	color: black;
-}
-ul #nav-list li{
-	background-color: white;
+.division{
+	border-top: 0.5px solid white;
+	margin: 0 10px 0 10px;
 }
 
-.company-name{
-	font-size: 30px;
-	color: black;
-	font-weight: bold;
+h1 {
+	margin: 20px;
+	font-size: 40px;
+	font-weight: 900;
 }
 
-.main-content .title{
-	color: black;
+
+.container-fluid{
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-.main-content .menu-tiles .tile{
-	margin: 10px 0 10px;
-	background-color: #888888;
-	color: black;
-}
-.main-tiles > div{
-	margin: 5px 0 5px;
+.row {
+	width: 100%;
+	margin: 0;
 }
 
-div .main-content > h2{
-	margin-bottom: 40px;
-	font-weight: bold;
+.subsection {
+	box-sizing: border-box;
+	background-color: grey;
+	padding: 15px;
+	border-left: 5px crimson solid;
+	border-right: 5px black solid;
+	margin: 10px 0 10px 0;
 }
 
-.menu-tiles .tile > h3{
-	padding-top: 5px;
-	font-weight: bold;
+.section-title {
+	font-weight: 700;
 }
 
-.menu-tiles .tile a{
-	color: black;
+.text-right {
+	color: #3402d8;
+	font-weight: 600;
 }
 
-.menu-tiles .tile a:hover{
+a:hover > .text-right, a:focus > .text-right {
 	text-decoration: none;
-}
-
-.menu-tiles .tile > p{
-	padding: 0 10px 10px;
 }
