@@ -1,0 +1,77 @@
+body{
+	font-family: 'Sriracha', cursive;
+	font-size: 15px;
+}
+.navbar{
+	background-color: #666666;
+	border-radius: 1px;
+	border-bottom: 2px solid black;
+}
+
+.navbar-brand{
+	padding:10px;
+	font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-toggler{
+	background-color: grey;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+.navbar-toggler:hover{
+	border: 1px solid grey;
+	background-color: white;
+}
+
+.navbar-nav:hover, .navbar-nav:focus{
+     background: crimson;
+}
+
+.division{
+	border-top: 0.5px solid white;
+	margin: 0 10px 0 10px;
+}
+
+h1 {
+	margin: 20px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+
+.container-fluid{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+}
+
+.subsection {
+	box-sizing: border-box;
+	background-color: grey;
+	padding: 15px;
+	border-left: 5px crimson solid;
+	border-right: 5px black solid;
+	margin: 10px 0 10px 0;
+}
+
+.section-title {
+	font-weight: 700;
+}
+
+.text-right {
+	color: #3402d8;
+	font-weight: 600;
+}
+
+a:hover > .text-right, a:focus > .text-right {
+	text-decoration: none;
+}
